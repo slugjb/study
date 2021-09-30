@@ -116,4 +116,30 @@
 
         Each child in a list should have a unique “key” prop.
 
-모       든 react의 element는 유일해야하고, 이런 처리 없이 데이터를 넣으면 list에 넣을때 유일성을 잃음. 그래서 각각의 item에 id값을 줌
+    모든 react의 element는 유일해야하고, 이런 처리 없이 데이터를 넣으면 list에 넣을때 유일성을 잃음. 그래서 각각의 item에 id값을 줌
+
+정리 필요
+
+***
+
+    정의
+    
+    React란?
+      페이스북에서 개발한 UI Library (재사용 가능한 UI를 생성 가능하게 함
+      Virtual Document Object Model
+      UI의 이상적인 또는 가상적인 표현을 메모리에 저장하고 ReactDOM과 같은 라이브러리에 의해 실제 DOM과 동기화하는 프로그래밍 개념
+
+    JSX 
+        javascript + xml / javascript 안의 html / React에서 나온 특화된 개념
+
+    Component
+        UI를 구성하는 개별적인 뷰단위,생산성이 높고, 유지보수 용이
+
+      보통의 Web은 index.html을 호출하는데, 호출시에 React는 처음부터 Html에 넣지 않고 Html에서 Html을 추가하거나 제거가 가능
+        Empty Html을 호출하고 React가 Component에 작성한 Html을 Push해줌
+        그래서 화면 구현시 Sources 부분에 코드가 나오지 않음
+        React는 Component와 함께 동작, Component는 Html을 Return한다.
+        App.js에서 함수 정의하고, Index.js에서 호출명을 정의하고, 정의한 호출명을 Index.html에서 사용
+        Component 작성 때마다 import react 'react'; 선언  // var React = require('react'); 와 동일
+        미 선언시 react가 jsx가 있는 component를 사용하는 것을 이해하지 못함
+        React는 Component를 가져와 Brower가 이해할수 있는 평범한 Html로 구성해줌
