@@ -1,38 +1,36 @@
-# study
-
-
-**정의
-
-React란?
-
-function Test(){} → function component
-
-class Test extends React.Component → class component
-
-react는 자동적으로 모든 class component의 render method를 실행하려 함
-
-state는 object이고, component의 data를 넣을 공간이 있고 이 데이터는 변한다 → state 정의/추가설명 보충 필요
-
-setState를 사용하지 않으면 state값이 변해도 새 state값과 render function이 호출이 안됨
-
+##정의
+ *React란?
+***
+ * function Test(){} → function component
+ * class Test extends React.Component → class component
+ * react는 자동적으로 모든 class component의 render method를 실행하려 함
+ * state는 object이고, component의 data를 넣을 공간이 있고 이 데이터는 변한다 → state 정의/추가설명 보충 필요
+ * setState를 사용하지 않으면 state값이 변해도 새 state값과 render function이 호출이 안됨
+```
   add = () => {
     this.setState(current => ({count: current.count + 1}));
   };  // state를 set 할 때, react에서 외부의 상태에 의존하지 않는 가장 좋은 방법
   minus = () => {
     this.setState({count: this.state.count - 1});
   };  // 좋지 못한 문구 is not awesome
+```
 
-※ Mounting- component의 태어남▶ constructor()-JS에서 class를 만들 때 호출되는 것-coponent가 mount될 때 호출됨▶ componentDidMount()-component가 처음 render될 때 호출됨
+*  Mounting- component의 태어남
+    ▶ constructor()-JS에서 class를 만들 때 호출되는 것-coponent가 mount될 때 호출됨
+    ▶ componentDidMount()-component가 처음 render될 때 호출됨
 
-※ Updating▶ componentDidUpdate()-coponet가 업데이트될 때 호출됨
+  ※ Updating
+    ▶ componentDidUpdate()-coponet가 업데이트될 때 호출됨
 
-※ Unmounting- coponent가 죽는 것▶ componentWillUnmount()
+  ※ Unmounting- coponent가 죽는 것
+    ▶ componentWillUnmount()
 
-setState()호출=>component 호출=>render 호출=>업데이트 완료 후 coponentDidUpdate 실행
+   setState()호출 => component 호출 => render 호출 =>
+   업데이트 완료 후 coponentDidUpdate 실행
 
-setState사용 할 때 state안에 default 값을 미리 선언 할 필요는 없다  
+   * setState사용 할 때 state안에 default 값을 미리 선언 할 필요는 없다  
 
-===========================09.17================================
+>###09.17
 
 원하는 모든 component에 대한 css 파일을 만들 수 있고, 하나의 css 파일에 모든 것을 넣을 수도 있다. put every thing
 
