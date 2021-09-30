@@ -1,5 +1,4 @@
-## 정의
- *React란?
+## React란?
 ***
  * function Test(){} → function component
  * class Test extends React.Component → class component
