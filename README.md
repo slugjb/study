@@ -97,10 +97,10 @@
     
     ***
 ## 깃허브에 페이지 배포하기
-    1.npm i gh-pages
-    2.package.json에 homepage 추가하기
-    3.scripts에▷"deploy" : "gh-pages -d build" ▷ 
+    1) npm i gh-pages
+    2) package.json에 homepage 추가하기
+    3) scripts에▷"deploy" : "gh-pages -d build" ▷ 
           "predeploy" : "npm run build"→deploy를 호출하면 먼저 호출된다
-    4.npm run deploy★Published
+    4) npm run deploy★Published
 
      https://slugjb.github.io/movie_app_09/#/  ← 위의 방법을 통해 구현한 웹 / React를 이용, API에서 DATA GET
