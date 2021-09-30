@@ -30,7 +30,6 @@
    * setState사용 할 때 state안에 default 값을 미리 선언 할 필요는 없다  
 
 ## 09.17
-
     원하는 모든 component에 대한 css 파일을 만들 수 있고, 하나의 css 파일에 모든 것을 넣을 수도 있다. put every thing
     
     1. npm i gh-pages / gh-pages는 너의 웹사이트를 github의 page 도메인에 나타나게 해줌(Html, Css, Javascript)
@@ -49,7 +48,7 @@
 
 ***
 ## react-router-dom란?
-    react에서 네비게이션을 만들어 주는 패키지 / 참조 ` npmjx.com/package/react-router-dom `
+    react에서 네비게이션을 만들어 주는 패키지 / 참조 ` npmjx.com/package/react-router-dom`
     라우터는 rul을 가져다가 확인하고, 우리가 명령한 컴포넌트를 불러온다
     라우터를 만들고 그 다음 라우터에는 스크린을 넣음, 그래서 원하는 만큼 path를 만들 수 있음 
     라우터 안에는 매우 중요한 props가 한개 들어감, 그 props는 렌더링할 스크린이 들어가고 다른 prop이 뭐 할지 정해줌
