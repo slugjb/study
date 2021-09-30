@@ -29,13 +29,13 @@
 
    * setState사용 할 때 state안에 default 값을 미리 선언 할 필요는 없다  
 
-## > 09.17
+## 09.17
 
     원하는 모든 component에 대한 css 파일을 만들 수 있고, 하나의 css 파일에 모든 것을 넣을 수도 있다. put every thing
     
     1. npm i gh-pages / gh-pages는 너의 웹사이트를 github의 page 도메인에 나타나게 해줌(Html, Css, Javascript)
     2. git remote -v / 경로 확인 /  일반적인 동작 방식은 github에서 너의 project 이름을 get 
-        ex) ` https://slugjb.github.io/movie_app_09/ `      // username + github.io/프로젝트명/
+        ex) `https://slugjb.github.io/movie_app_09/`      // username + github.io/프로젝트명/
     3. gh-pages / github에 업로드 하는것을 허가해 주는 모듈 설치
     4. package.JSON에 주소 추가 / ` "homepage": "https://slugjb.github.io/movie_app_09/" `
         *이 단계는 필수, 정말로 진짜로, gh-pages가 동작하는데 필수!!
