@@ -104,3 +104,16 @@
     4) npm run deploy★Published
 
      https://slugjb.github.io/movie_app_09/#/  ← 위의 방법을 통해 구현한 웹 / React를 이용, API에서 DATA GET
+     
+    ***
+  ##  Error
+
+        page not found - 서버가 없어서 못 찾는것.
+
+        항상 Npm Start 실행 후 그대로 둘 것.
+
+        localhost를 계속 유지하고 refresh 하기 위하여 npm start 실행
+
+        Each child in a list should have a unique “key” prop.
+
+모       든 react의 element는 유일해야하고, 이런 처리 없이 데이터를 넣으면 list에 넣을때 유일성을 잃음. 그래서 각각의 item에 id값을 줌
