@@ -34,11 +34,11 @@
     
     1. npm i gh-pages / gh-pages는 너의 웹사이트를 github의 page 도메인에 나타나게 해줌(Html, Css, Javascript)
     2. git remote -v / 경로 확인 /  일반적인 동작 방식은 github에서 너의 project 이름을 get 
-        ex) `https://slugjb.github.io/movie_app_09/`      // username + github.io/프로젝트명/
+        ex) https://slugjb.github.io/movie_app_09/      // username + github.io/프로젝트명/
     3. gh-pages / github에 업로드 하는것을 허가해 주는 모듈 설치
     4. package.JSON에 주소 추가 / ` "homepage": "https://slugjb.github.io/movie_app_09/" `
         *이 단계는 필수, 정말로 진짜로, gh-pages가 동작하는데 필수!!
-           ※주의 : 꼭 ‘소문자’여야 함. / github에 있는 프로젝트 명 / every thing lower case
+           ※주의 : 꼭 '소문자'여야 함. / github에 있는 프로젝트 명 / every thing lower case
     5. npm run build / 명령어를 통해 build 폴더를 생성하고 minimaze 함  
          gh-page를 호출하고 folder를 upload해야하는데 folder가 없어서 생성
     6. package.JSON 내의 "scripts" 부분에 "deploy": "gh-pages -d build", "predeply": "npm run build" 추가!!
@@ -48,7 +48,7 @@
 
 ***
 ## react-router-dom란?
-    react에서 네비게이션을 만들어 주는 패키지 / 참조 ` npmjx.com/package/react-router-dom`
+    react에서 네비게이션을 만들어 주는 패키지 / 참조 npmjx.com/package/react-router-dom
     라우터는 rul을 가져다가 확인하고, 우리가 명령한 컴포넌트를 불러온다
     라우터를 만들고 그 다음 라우터에는 스크린을 넣음, 그래서 원하는 만큼 path를 만들 수 있음 
     라우터 안에는 매우 중요한 props가 한개 들어감, 그 props는 렌더링할 스크린이 들어가고 다른 prop이 뭐 할지 정해줌
