@@ -153,14 +153,14 @@
 > 보통의 Web은 index.html을 호출하는데, 호출시에 React는 처음부터  
 > Html에 넣지 않고 Html에서 Html을 추가하거나 제거가 가능하다.
 >
-> Empty Html을 호출하고 React가 Component에 작성한 Html을 Push해준다.
+> Empty Html을 호출하고 React가 Component에 작성한 Html을 Push해준다.  
 > 그래서 화면 구현시 Sources 부분에 코드가 나오지 않는다.
 > 
 > React는 Component와 함께 동작, Component는 Html을 Return한다.
 > 
 > App.js에서 함수 정의하고, Index.js에서 호출명을 정의하고, 정의한 호출명을 Index.html에서 사용한다.
 > 
-> Component 작성 때마다 import react 'react'; 선언  // var React = require('react'); 와 동일하다.
+> Component 작성 때마다 import react 'react'; 선언  // var React = require('react'); 와 동일하다.  
 > 미 선언시 react가 jsx가 있는 component를 사용하는 것을 이해하지 못한다.
 > 
 > React는 Component를 가져와 Brower가 이해할수 있는 평범한 Html로 구성해준다.
