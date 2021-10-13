@@ -15,8 +15,8 @@
 ```
 
 *  Mounting- component의 태어남  
-    ▶ constructor()-JS에서 class를 만들 때 호출되는 것-coponent가 mount될 때 호출됨  
-    ▶ componentDidMount()-component가 처음 render될 때 호출됨
+    ▶ constructor()-JS에서 class를 만들 때 호출되는 것 - coponent가 mount될 때 호출됨  
+    ▶ componentDidMount() - component가 처음 render될 때 호출됨
 
     ※ Updating
      ▶ componentDidUpdate()-coponet가 업데이트될 때 호출됨
@@ -88,14 +88,14 @@
    <a href="/about">About</a>
 /div>
 ```
-    처음 경로, 즉 home으로는 이동이 가능하지만 /about은 작동하지 않는다. 왜일까?   
-    왜냐하면 href는 html이기 때문. html은 (전체_페이지를 새로고침 하기 때문이다.  
-    즉, react가 죽고, all page가 refresh되어버리기 때문, react로 만든 페이지이고
-    interaction을 원하지만, 이러한 방식은 원하지 않는다.
+  처음 경로, 즉 home으로는 이동이 가능하지만 /about은 작동하지 않는다. 왜일까?   
+  왜냐하면 href는 html이기 때문. html은 (전체_페이지를 새로고침 하기 때문이다.  
+  즉, react가 죽고, all page가 refresh되어버리기 때문, react로 만든 페이지이고
+  interaction을 원하지만, 이러한 방식은 원하지 않는다.
 ```
 <div>
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
+   <Link to="/">Home</Link>
+   <Link to="/about">About</Link>
 </div>
 ```
     위와 같은 방식을 사용
