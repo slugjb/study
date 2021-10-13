@@ -14,7 +14,7 @@
   };  // 좋지 못한 문구 is not awesome
 ```
 
-*  Mounting- component의 태어남
+*  Mounting- component의 태어남  
     ▶ constructor()-JS에서 class를 만들 때 호출되는 것-coponent가 mount될 때 호출됨  
     ▶ componentDidMount()-component가 처음 render될 때 호출됨
 
